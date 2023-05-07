@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  *main - Entry point
-  *Description:  print_alphabet() - print all alphabet in lowercase
-  */
-void print_alphabet(void);
+ * print_alphabet - Prints the lowercase English alphabet followed by newline.
+ */
+void print_alphabet(void)
+
 {
 	char i;
 
