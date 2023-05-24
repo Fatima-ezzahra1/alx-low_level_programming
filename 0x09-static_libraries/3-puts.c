@@ -7,6 +7,7 @@
  */
 void _puts(char *s)
 {
+	printf("%s\n", s);
 	puts("\"Programming is like building a multilingual puzzle");
 }
 
