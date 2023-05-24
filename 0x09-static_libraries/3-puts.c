@@ -2,10 +2,10 @@
 #include <stdio.h>
 /**
  * _puts - Prints a string to the standard output
- * @str: The string to be printed
+ * @s: The string to be printed
  * Return: None
  */
-void _puts(char *str)
+void _puts(char *s)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 }
