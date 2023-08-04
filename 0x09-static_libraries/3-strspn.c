@@ -1,15 +1,14 @@
 #include "main.h"
 /**
  * _strspn - Entry point
- * @s: input 1
- * @accept: input 2
+ * @s: input
+ * @accept: input
  * Return: Always 0 (Success)
  */
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int n = 0;
 	int r;
-
 
 	while (*s)
 	{
