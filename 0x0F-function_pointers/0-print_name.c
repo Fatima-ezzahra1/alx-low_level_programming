@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_name - prints name
- * @name: name of a person
+ * @name: name of the person
  * @f: pointer to function
  * Return: nothing
  **/
