@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * array_iterator - prints each array elem on a newl
- * @array: array
- * @size: is the size of the array
+ * @array: the array
+ * @size: is the size of array
  * @action: is a pointer to the function you need to use
  * Return: void
  */
