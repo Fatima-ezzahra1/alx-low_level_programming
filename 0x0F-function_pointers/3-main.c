@@ -4,8 +4,8 @@
 #include "3-calc.h"
 /**
  * main - Prints the result of operation
- * @argc: number of argument
- * @argv: array of pointers
+ * @argc: number of arguments
+ * @argv: array of the pointers
  * Return: Always 0.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
