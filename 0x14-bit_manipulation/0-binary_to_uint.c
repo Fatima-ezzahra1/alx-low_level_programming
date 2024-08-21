@@ -1,14 +1,30 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * binary_to_uint - function converts a binary number to an unsigned int.
+ * @b: pointer to a string containing a binary number
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: unsigned int with decimal value of binsry number, or 0 if error
  */
-int _putchar(char c)
+unsigned int binary_to_uint(const char *b)
 {
-	return (write(1, &c, 1));
+	int a;
+	unsigned int num;
+
+	num = 0;
+	if (!b)
+		return (0);
+	for (a = 0; b[a] != '\0'; a++)
+	{
+		if (b[a] != '0' && b[a] != '1')
+			return (0);
+	}
+	for (a = 0; b[a] != '\0'; a++)
+	{
+		num <<= 1;
+		if (b[a] == '1')
+			num += 1;
+	}
+	return (num);
 }
 
